@@ -15,7 +15,7 @@ typedef struct {
     int cursorPos;
 } textData;
 
-char* validAlphabet = " 1234567890QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm!\"£$%^&*()-_=+[]{};:@'~#,<.>/?\\|";
+char* validAlphabet = "\t 1234567890QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm!\"£$%^&*()-_=+[]{};:@'~#,<.>/?\\|";
 
 void initNcurses() {
 	initscr(); 
